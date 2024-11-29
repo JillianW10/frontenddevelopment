@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  https://crayolaexperiencemn.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  Home pagina van Starbucks
+  Home pagina van Crayola Experience
   <img src="readme-images/homepagina.jpg" width="375px" alt="Screenshot van de homepagina van Crayola Experience">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  Bezorging pagina van Starbucks
+  Visiting pagina van Crayola Experience
   <img src= "readme-images/visiting_pagina.jpg" width="375px" alt="Screenshot van de visiting pagina van Crayola Experience">
  
 </details>
