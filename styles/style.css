@@ -29,10 +29,378 @@
 
 /* jouw code */
 
+img{
+	max-width:100%;
+  }
+
+@font-face{
+	font-family: Omnes-regular;
+	src: url(/fonts/OmnesRegular.ttf);
+}
+
+@font-face{
+	font-family: Omnes-semibold;
+	src: url(/fonts/OmnesSemiBold.ttf);
+}
+
+body{
+	font-family: Omnes-regular;
+
+}
+
 h1{
+	font-family: Omnes-semibold;
+	font-size: 3.5em;
+}
+
+.visitingpagina h1{
 	color: #AC1F8E;
+}
+
+header section p{
+	font-size: 1.2em;
 }
 
 img{
 	max-width:100%;
   }
+
+header div{
+	position:relative;
+	height: 60vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+video {
+	width: auto;
+}
+
+header button{
+	position: absolute;
+	color: white;
+	background-color: #0072BB;
+	top: 0;
+	left: 1em;
+	border-radius: 20em; 
+	border: 0.1em solid White;
+	padding: 1em 1.5em;
+}
+
+header section{
+	color: white;
+	background-color: #0072BB;
+	padding: 1em 0.8em;
+}
+
+header section ul{
+	font-family: Omnes-semibold;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-decoration: none; 
+	padding: 0;
+}
+
+header section ul li{
+	display:flex;
+	justify-content: center;
+	color: white;
+}
+
+header section ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+header section ul li:nth-of-type(1) a{
+	color:#0072BB;
+}
+
+header section ul li:nth-of-type(1){
+	background-color: white;
+	color: #0072BB; 
+	border-radius: 20em;
+	padding: 0.5em 4em;
+	margin-bottom: 1em;
+}
+
+header section ul li:nth-of-type(2){
+	background-color: #0072BB;
+	color: white; 
+	border: 0.1em solid White;
+	border-radius: 20em;
+	padding: 0.5em 4em;
+}
+
+.homepagina main section:nth-of-type(1) h2{
+	color: #7451A3;
+	font-family: Omnes-semibold;
+	font-size: 3.5em;
+}
+
+.homepagina main p{
+	margin-bottom: 1.5em;
+}
+
+.homepagina main section:nth-of-type(1) a, 
+.homepagina main section:nth-of-type(2) a{
+	text-decoration: none;
+	color: #0072BB;
+	border: 0.1em solid #0072BB;
+	border-radius: 1em;
+	padding: 0.5em 1em;
+}
+
+article:nth-of-type(1){
+	background-color: #AB2190;
+}
+
+article:nth-of-type(2){
+	background-color: #0171B9;
+}
+
+article:nth-of-type(3){
+	background-color: #7451A1; 
+}
+
+article img{
+	background-color: white;
+}
+
+article{
+	border-radius: 1em;
+	color: white;
+	margin: 1em;
+	text-align: center;
+	padding-bottom: 1.5em;
+}
+
+article h3, article p{
+	padding: 0 0.8em;
+}
+
+article h3{
+	font-family: Omnes-semibold;
+	font-size: 2em;
+	margin: 0;
+}
+
+article p{
+	font-size: larger;
+	padding: 1em;
+	margin: 0;
+}
+
+article a{
+	font-family: Omnes-semibold;
+	text-decoration: none;
+	border-radius: 1em;
+	display: inline;
+	background-color: white;
+	padding: 0.5em 0.8em;
+}
+
+main section:nth-of-type(2) h2,
+main section:nth-of-type(3) h2{
+	color: #7451A3;
+	font-family: Omnes-semibold;
+	font-size: 3.5em;
+}
+
+main section:nth-of-type(2) p{
+	font-size: 1.1em;
+}
+
+.homepagina main section:nth-of-type(3){
+	position: relative;
+	text-align: center;
+	margin-bottom: 6em;
+}
+
+.homepagina main section:nth-of-type(3) h2{
+	color:#0072BB;
+	margin-bottom: 0.1em;
+}
+
+.homepagina main section:nth-of-type(3) h2,
+ 	main section:nth-of-type(3) a{
+	font-family: Omnes-semibold;
+	color: #0072BB;
+	text-decoration-color: black;
+}
+
+main section:nth-of-type(3) > img{
+	position: absolute;
+	top: 0;
+	width: 7vh;
+	right: 0;
+}
+
+main section:nth-of-type(3) li:nth-of-type(1){
+	margin-top: 4em;
+	background-color: #662D91;
+}
+
+main section:nth-of-type(3) li:nth-of-type(2){
+	background-color: #D1007D;
+}
+
+main section:nth-of-type(3) li:nth-of-type(3){
+	background-color: #7451A1; 
+}
+
+main section:nth-of-type(3) ul img{
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	background-color: white;
+}
+
+main section:nth-of-type(3) ul{
+	padding: 0;
+}
+
+main section:nth-of-type(3) ul li{
+	border-radius: 1em;
+	color: white;
+	margin: 1em;
+	padding-bottom: 1.5em;
+}
+
+main section:nth-of-type(3) h3, main section:nth-of-type(3) ul p{
+	padding: 0 0.8em;
+}
+
+main section:nth-of-type(3) h3{
+	font-family: Omnes-semibold;
+	font-size: 2em;
+	margin: 0.9em 0 0 0;
+}
+
+main section:nth-of-type(3) ul p{
+	font-size: larger;
+	padding: 1em;
+	margin: 0;
+}
+
+main section:nth-of-type(3) ul a{
+	font-family: Omnes-semibold;
+	text-decoration: none;
+	border-radius: 1em;
+	display: inline;
+	background-color: white;
+	padding: 0.5em 0.8em;
+}
+
+main section:last-of-type h2,
+blockquote{
+	color: #662D91;
+	font-family: Omnes-semibold;
+	text-align: center;
+}
+
+blockquote{
+	font-size: 3.75em;
+}
+
+footer{
+	background-color: #C3D831;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul a{
+	text-decoration: none;
+	color: black;
+}
+
+nav ul:first-of-type li:nth-of-type(2) img{
+	width: 6em;
+	margin-top: 4em;
+}
+
+nav ul:first-of-type li:nth-of-type(1) img{
+	width: 10em;
+	margin-top: 4em;
+}
+
+nav ul:first-of-type{
+	display: flex;
+}
+
+
+/* visiting pagina  */
+.visitingpagina main section:nth-of-type(1) ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+.visitingpagina main section:nth-of-type(1) ul a{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+
+/* footer nav */
+footer nav ul h2{
+	font-size: 1em;
+	font-family: Omnes-semibold;
+}
+
+/* footer nav:nth-of-type(2) > ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer nav:nth-of-type(2) > ul > li {
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+  } */
+
+footer nav ul:nth-of-type(2) li:nth-of-type(1) ul,
+footer nav ul:nth-of-type(2) li:nth-of-type(2) ul,
+footer nav ul:nth-of-type(2) li:nth-of-type(3) ul,
+footer nav ul:nth-of-type(2) li:nth-of-type(4) ul{
+	display: flex;
+	flex-direction:column;
+	font-size: 0.85em;
+	padding: 0;
+}
+
+footer nav ul:nth-of-type(2) li:nth-of-type(1) ul li,
+footer nav ul:nth-of-type(2) li:nth-of-type(2) ul li,
+footer nav ul:nth-of-type(2) li:nth-of-type(3) ul li,
+footer nav ul:nth-of-type(2) li:nth-of-type(4) ul li{
+	margin: 0.4em;
+}
+
+footer > p:first-of-type{
+	font-family: Omnes-semibold;
+  }
+
+footer section:first-of-type a{
+  font-family: Omnes-semibold;
+  text-decoration: none;
+  color: black;
+  border: 0.1em solid black;
+  border-radius: 1em;
+  padding: 0.5em 1em;
+}
+
+footer section:nth-of-type(2) a{
+	text-decoration: none;
+	color: black;
+}
+
+footer section:nth-of-type(2){
+	margin-top: 5em;
+	text-align: center;
+	font-size: 0.7em;
+}

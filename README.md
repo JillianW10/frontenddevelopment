@@ -16,15 +16,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+ Jillian Wong
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+ Blauw/rood
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+ Responsive 
  
 </details>
+
 
 
 
@@ -36,15 +37,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+ https://crayolaexperiencemn.com/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Home pagina van Starbucks
+  <img src="readme-images/homepagina.jpg" width="375px" alt="Screenshot van de homepagina van Crayola Experience">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Bezorging pagina van Starbucks
+  <img src= "readme-images/visiting_pagina.jpg" width="375px" alt="Screenshot van de visiting pagina van Crayola Experience">
  
 </details>
 
@@ -67,14 +68,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ### de home pagina: 
+  <img src="readme-images/homepagina_breakdown.jpg" width="375px" alt="breakdown van de home pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### de visiting pagina: 
+  <img src="readme-images/visiting_breakdown.jpg" width="375px" alt="breakdown van de visiting pagina">
 
 </details>
 
@@ -88,7 +86,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+ Ik heb voor de eerste voortgangsgesprek mijn HTML van beide pagina's af kunnen hebben. Ik heb tijdens het opmaken van deze code geen problemen gehad.
 
 
   ### Agenda voor meeting
@@ -96,18 +94,26 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe kan ik de  | Wat gebeurt er als | Was afwezig  | Was afwezig      |
+  | video van mijn | je je code af hebt |              |                  |
+  | site           | en de website 
+  | downloaden?    | veranderd?
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  De uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+Ik had niet zo zeer fouten in mijn code, ik kreeg wel advies over hoe ik bepaalde stukjes kan coderen:
+- Voor de FAQ kan ik het <details>-element gebruiken.
+- De lijst met tickets en Crayola-icoontjes kan ik structureren als <article>-elementen.
+- Voor de achtergrond kan ik het ::before-attribuut in CSS toepassen.
+- Een media query kan ik gebruiken om het hamburgermenu te implementeren.
+- De <nav> boven de <h1> is niet problematisch voor screenreaders.
+
+Antwoorden op gestelde vragen:
+- De video kan je halen uit de dev. tools> network> type> video zoeken> downloaden.
+- Het is niet erg als de website verandered. Ik ga kijken naar de screenshots, dus  je kan de oude versie namaken. Als er animaties zijn kan je de Wayback machine gebruiken om de oude versie van de website te zien.
+
 
 </details>
 
