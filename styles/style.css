@@ -84,7 +84,7 @@ img {
 }
 
 body {
-	font-family: Omnes-regular;
+	font-family: Omnes-regular, Arial;
 	color: var(--color);
 	background-color: var(--color-background);
 	margin: 0;
@@ -98,7 +98,7 @@ body {
 
 
 header h2 {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 3.5em;
 }
 
@@ -246,7 +246,7 @@ header div button:hover {
 }
 
 header section ul {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -297,7 +297,7 @@ header section:nth-of-type(2) ul li:nth-of-type(2) {
 
 .visitingpagina main section:nth-of-type(1) h2 {
 	color: #1F7DBD;
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 3.5em;
 }
 
@@ -355,7 +355,7 @@ article p {
 }
 
 .homepagina section:nth-of-type(2) h3 {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 2em;
 	margin: 0;
 }
@@ -367,7 +367,7 @@ article p {
 }
 
 .homepagina main section:nth-of-type(2) a {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	text-decoration: none;
 	border-radius: 1em;
 	display: inline;
@@ -379,7 +379,7 @@ article p {
 .homepagina main section:nth-of-type(4) h2,
 .visitingpagina main section:nth-of-type(5) h2 {
 	color: var(--blockquote-color);
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 3.5em;
 }
 
@@ -415,7 +415,7 @@ main section:nth-of-type(3) p {
 .visitingpagina main section:nth-of-type(3) a,
 .visitingpagina main section:nth-of-type(5) a,
 .visitingpagina main section:nth-of-type(5) h2 {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	color: #0171B9;
 	text-decoration-color: var(--color);
 }
@@ -476,7 +476,7 @@ main section:nth-of-type(4) ul p,
 
 main section:nth-of-type(4) h3,
 .visitingpagina main section:nth-of-type(5) h3 {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 2em;
 	margin: 0.9em 0 0 0;
 }
@@ -489,7 +489,7 @@ main section:nth-of-type(4) ul p {
 
 .homepagina main section:nth-of-type(4) ul a,
 .visitingpagina main section:nth-of-type(5) ul a {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	text-decoration: none;
 	border-radius: 1em;
 	display: inline;
@@ -504,7 +504,7 @@ main section:nth-of-type(4) ul p {
 .homepagina main section:last-of-type h2,
 blockquote {
 	color: var(--blockquote-color);
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	text-align: center;
 }
 
@@ -572,7 +572,7 @@ nav ul:first-of-type {
 }
 
 .visitingpagina main section:nth-of-type(1) h3 {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	color: #0072BB;
 	font-size: 2.1em;
 	margin-top: 0.4em;
@@ -596,13 +596,13 @@ nav ul:first-of-type {
 .visitingpagina main section:nth-of-type(2) h2 {
 	color: #AB2190;
 	font-size: 3.5em;
-	font-family: Omnes-semiBold;
+	font-family: Omnes-semiBold, 'Arial Narrow Bold';
 }
 
 .visitingpagina main section:nth-of-type(2) details {
 	text-align: left;
 	color: white;
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 1.2em;
 	background-color: #AB2190;
 	margin: 0.5em;
@@ -612,14 +612,14 @@ nav ul:first-of-type {
 .visitingpagina main section:nth-of-type(2) div {
 	background-color: #F4F4F4;
 	color: black;
-	font-family: Omnes-regular;
+	font-family: Omnes-regular, Arial;
 	font-size: 0.9em;
 	padding: 0.5em 1em;
 }
 
 .visitingpagina main section:nth-of-type(2) div a {
 	text-decoration: none;
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	color: #0072BB;
 }
 
@@ -635,7 +635,7 @@ nav ul:first-of-type {
 
 .visitingpagina main section:nth-of-type(3) h2,
 .visitingpagina main section:nth-of-type(4) h2 {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 3.5em;
 	line-height: 1em;
 	padding-top: 1em;
@@ -682,7 +682,7 @@ nav ul:first-of-type {
 }
 
 figcaption {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 2.1em;
 	margin-top: 0.4em;
 }
@@ -734,12 +734,12 @@ footer nav section:nth-of-type(4) li {
 }
 
 footer h2 {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	font-size: 1em;
 }
 
 footer nav section:nth-of-type(5) a {
-	font-family: Omnes-semibold;
+	font-family: Omnes-semibold, 'Arial Narrow Bold';
 	text-decoration: none;
 	color: var(--color);
 	border: 0.1em solid var(--color);
@@ -883,7 +883,7 @@ nav ul li:nth-child(2):hover ul {
 }
 
 nav ul li ul li {
-	font-family: Omnes-regular;
+	font-family: Omnes-regular, Arial;
 	font-size: 0.8em;
 	color: white;
 	white-space: nowrap;
@@ -951,7 +951,7 @@ nav ul li:nth-child(2):hover {
 	header nav ul li a {
 		color: var(--nav-color);
 		font-size: 1.1em;
-		font-family: Omnes-regular;
+		font-family: Omnes-regular, Arial;
 	}
 
 	header nav ul li:last-of-type a {
@@ -959,7 +959,7 @@ nav ul li:nth-child(2):hover {
 		color: white;
 		padding: 0.7em 1.8em;
 		border-radius: 2em;
-		font-family: Omnes-Semibold;
+		font-family: Omnes-Semibold, 'Arial Narrow Bold';
 		transition: background-color 0.5s ease;
 	}
 
@@ -1252,7 +1252,7 @@ nav ul li:nth-child(2):hover {
 
 	header nav ul li a {
 		font-size: 1.1em;
-		font-family: Omnes-regular;
+		font-family: Omnes-regular, Arial;
 	}
 
 	header section:first-of-type a {
