@@ -327,10 +327,10 @@ antwoord: *:focus {
     box-shadow: 0 0 5px rgba(0, 95, 204, 0.7); /* Optional glow effect */
 }
 
-4. Ik heb op W3C de background-image property opgezocht, zodat ik ed achtergrond decoratie elementen kan toevoegen op deze manier.
+4. Ik heb op W3C de background-image property opgezocht, zodat ik de achtergrond decoratie elementen kan toevoegen op deze manier.
 Link naar website: https://www.w3schools.com/cssref/pr_background-image.php
 
-Deze code stond er op de wesbite van W3C
+Deze code stond er op de website van W3C
 body {
  background-image: url("paper.gif");
  background-color: #cccccc;
