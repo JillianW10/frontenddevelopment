@@ -74,17 +74,17 @@ img {
 }
 
 @font-face {
-	font-family: Omnes-regular;
+	font-family: 'Omnes-regular';
 	src: url(/fonts/OmnesRegular.ttf);
 }
 
 @font-face {
-	font-family: Omnes-semibold;
+	font-family: 'Omnes-semibold';
 	src: url(/fonts/OmnesSemiBold.ttf);
 }
 
 body {
-	font-family: Omnes-regular, Arial;
+	font-family: 'Omnes-regular', Arial;
 	color: var(--color);
 	background-color: var(--color-background);
 	margin: 0;
@@ -98,7 +98,7 @@ body {
 
 
 header h2 {
-	font-family: Omnes-semibold, 'Arial Narrow Bold';
+	font-family: 'Omnes-semibold', 'Arial Narrow Bold';
 	font-size: 3.5em;
 }
 
