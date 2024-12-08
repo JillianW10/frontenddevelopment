@@ -114,11 +114,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   De uitkomsten van de meeting vastleggen
 
 Ik had niet zo zeer fouten in mijn code, ik kreeg wel advies over hoe ik bepaalde stukjes kan coderen:
-- Voor de FAQ kan ik het <details>-element gebruiken.
-- De lijst met tickets en Crayola-icoontjes kan ik structureren als <article>-elementen.
+- Voor de FAQ kan ik het details-element gebruiken.
+- De lijst met tickets en Crayola-icoontjes kan ik structureren als article-elementen.
 - Voor de achtergrond kan ik het ::before-attribuut in CSS toepassen.
 - Een media query kan ik gebruiken om het hamburgermenu te implementeren.
-- De <nav> boven de <h1> is niet problematisch voor screenreaders.
+- De nav boven de h1 is niet problematisch voor screenreaders.
 
 Antwoorden op gestelde vragen:
 - De video kan je halen uit de dev. tools> network> type> video zoeken> downloaden.
@@ -171,8 +171,6 @@ Antwoorden op gestelde vragen:
   - Alt tekstjes nog bijzetten bij imgs
   - Antwoord op student 2 der vraag: Ja het is een vereiste en je kan ook animaties toevoegen.
   - Antwoord op student 3 zijn vraag: Padding gebruiken voor binnen en margin voor buiten wit-ruimte.
-
-
 </details>
 
 
