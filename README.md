@@ -253,7 +253,8 @@ Antwoorden op gestelde vragen:
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Ik ben erg trots op het resultaat van de homepage, omdat het de stijl van de originele website echt goed weergeeft. Ik heb hier veel tijd en moeite in gestoken om het er zo goed mogelijk uit te laten zien.
+  <img src="readme-images/Homepagina_screenshot.png" width="375px" alt="Uitkomst van mijn Home-pagina">
 
 
   ### Dit ging goed/Heb ik geleerd: 
