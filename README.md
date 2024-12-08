@@ -137,7 +137,7 @@ Antwoorden op gestelde vragen:
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de CSS van mijn eerste pagin af en heb een begin gemaakt aan de tweede pagina. Ik heb hiervoor een paar vragen die ik hieronder zal uitschrijven.
 
 
   ### Agenda voor meeting
@@ -184,18 +184,23 @@ Antwoorden op gestelde vragen:
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
+  <img src="readme-images/WCAGchecklist.png" width="375px" alt="Toegankelijkheidstest 1/5">
+  <img src="readme-images/WCAGchecklist1.png" width="375px" alt="Toegankelijkheidstest 2/5">
+  <img src="readme-images/WCAGchecklist2.png" width="375px" alt="Toegankelijkheidstest 3/5">
+  <img src="readme-images/WCAGchecklist3.png" width="375px" alt="Toegankelijkheidstest 4/5">
+  <img src="readme-images/WCAGchecklist5.png" width="375px" alt="Toegankelijkheidstest 5/5">
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-  - Ik ben nog niet zover, dus ik heb de alt teksten nog niet geplaatst wat de screenreader zou moeten lezen.
-  - Ik heb opgemerkt dat de screen reader niet over de fotos heen gaat, hij skipt het.
-  - Ik heb vevrolgens een alt tekst geplaatst bij een van de foto's en heb met de voice over weer probeert om erover te gaan, en nu skipt hij het niet, hij leest de alt tekst wel.
   - De linkjes en buttons hebben duidelijke namen waardoor je weet wat je moet doen wanneer je erop bent met de screen reader.
   - Ik heb goed gebruik gemaakt van de Headings, dus h1,h2,h3 (eentje is niet overgeslagen).
 
   Wat ik heb verbeterd:
-  - - Mijn website valideert wel in W3C.
-  - - Ik heb een dark-mode thema toegevoegd.
+  - Mijn website valideert wel in W3C.
+  - Ik heb een dark-mode thema toegevoegd.
   - Ik heb probeert om zo min mogelijk diivjes te gebruiken, en wanneer ik ze toch heb gebruikt, heb ik ervoor gezorgd dat het puur voor styling is.
+  - Er is geen autplay bij de video.
+  - Ik heb gebruik gemaakt van List items voor list content.
 
 </details>
 
@@ -209,27 +214,33 @@ Antwoorden op gestelde vragen:
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb voor dit gesprek het overgrootste deel van mijn code af, ik heb alleen nog een paar vragen die ik wil stellen die ik hieronder zal uitschrijven.
 
+  Ik heb vragen over deze stukken code:
+    <img src="readme-images/standvanzaken.jpeg" width="375px" alt="Screenshot van welke vragen ik ga stellen">
+    <img src="readme-images/standvanzaken2.jpeg" width="375px" alt="Screenshot van welke vragen ik ga stellen">
+    <img src="readme-images/standvanzaken3.jpeg" width="375px" alt="Screenshot van welke vragen ik ga stellen">
+    <img src="readme-images/standvanzaken4.jpeg" width="375px" alt="Screenshot van welke vragen ik ga stellen">
+    <img src="readme-images/standvanzaken5.jpeg" width="375px" alt="Screenshot van welke vragen ik ga stellen">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | student 1      | andere studenten waren afwezig | 
+  | ---            |                                | 
+  | Ik had voor dit|                                |
+  | gesprek alleen |                                | 
+  | vragen over m'n|                                |
+  | eigen code.    |                                | 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Ik kreeg als feedback dat mijn website al redelijk af eruit ziet, alleen een paar finishing touches had het nodig.
+  - Ik stelde specifieke vragen over mijn code, waar ik gelijk hulp kreeg. Ik heb deze code dan thuis verbeterd.
+  - Ik had ook gevraagd als ik de styling van de navigatie moet nadoen sins ik responsive heb gekozen, en ik kreeg als antwoord, ja die hover nav stlyling kan wel erbij. Ik kreeg hiervor ook hulp hoe ik het zou kunnen uitvoeren.
+  - Ik kreeg ook als feedback dat ik me dark mode eerst in orde moet maken voordat ik de nav styling doe, want die is belangrijker.
 </details>
 
 
@@ -246,15 +257,26 @@ Antwoorden op gestelde vragen:
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  
+  Ik heb geleerd hoe ik met Grid content kan verplaatsen en ook responsive laten bewegen.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/screenshot_grid.png" width="375px" alt="Hier is een foto van mijn gemaakte site waar ik grid heb toegepast">
+
+  <img src="readme-images/screenshot_grid2.png" width="375px" alt="Hier is een foto van mijn gemaakte site waar ik grid heb toegepast">
+
+  <img src="readme-images/screenshot_responsive.png" width="375px" alt="Hier zie je dat het responsive werkt">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Het is me niet gelukt om de openklap hamburgermenu (mobile scherm) met deze styling te krijgen, Ik heb de navigatie menu op de desktop scherm wel geprobeerd en die is me gelukt. 
+
+  <img src="readme-images/screenshot_openklap_hamburgermenu.png" width="375px" alt="Zo ziet het eruit als je de hamburgermenu klik op de originele site">
+
+  Ik realiseerde me te laat dat deze section geen H'tje heeft. Zelfs als ik er een H'tje aan zou toevoegen, zou ik al mijn code opnieuw moeten aanpassen, wat me in tijdnood zou brengen. Dit was ook de enige foutmelding die ik kreeg van de validator, dus ik wilde geen risico nemen dat mijn code zou breken door aanpassingen te maken.
+
+  <img src="readme-images/nietgelukt.png" width="375px" alt="De section zonder een h'tje">
+
 </details>
 
 
@@ -270,8 +292,38 @@ Antwoorden op gestelde vragen:
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Ik heb de SVG van de originele site gehaald die ik namaak.
+  link naar site: https://crayolaexperiencemn.com/
+  SVG gebruikt in code: 
+    - <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true">
+			<path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+			c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+			c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
+		</svg>
 
+  2. De code voor de navigatie sluitmenu, heb ik d.m.v. het maken van de opdrachten op DLO kunnen doen.
+  code:
+  let menuButton = document.querySelector("header section > button");
+  let sluitButton = document.querySelector("header nav > button");
+
+  menuButton.addEventListener("click", openMenu);
+  sluitButton.addEventListener("click", sluitMenu);
+
+  function openMenu(){
+    let nav = document.querySelector("nav");
+    nav.classList.add("toonMenu");
+  }
+  
+  function sluitMenu(){
+    let nav = document.querySelector("nav");
+    nav.classList.remove("toonMenu");
+  }
+  <img src="readme-images/screenshot_code_slutmenu.png" width="375px"  alt="Screenshot van de oefening code op DLO die mij heeft geholpen">
+
+3. Ik heb Chat GPT gevraagd hoe ik een focus style kan plaatsen voor mijn code.
+prompt: how to add a focus style for all elements at once?
+antwoord: *:focus {
+    outline: 2px solid #005fcc; /* Blue outline */
+    box-shadow: 0 0 5px rgba(0, 95, 204, 0.7); /* Optional glow effect */
+}
 </details>

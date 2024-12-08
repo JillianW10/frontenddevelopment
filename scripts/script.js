@@ -1,35 +1,31 @@
 // JavaScript Document
 console.log("hi");
 
-let menuButton = document.querySelector("header section > button")
-menuButton.addEventListener("click", openMenu)
+let menuButton = document.querySelector("header section > button");
+const video = document.querySelector("video");
+const pauseButton = document.querySelector("#pauseButton");
+let sluitButton = document.querySelector("header nav > button");
+
+menuButton.addEventListener("click", openMenu);
+sluitButton.addEventListener("click", sluitMenu);
+pauseButton.addEventListener("click", pause);
 
 function openMenu(){
-    let nav = document.querySelector("nav")
-    nav.classList.add("toonMenu")
+    let nav = document.querySelector("nav");
+    nav.classList.add("toonMenu");
   }
-
-  let sluitButton = document.querySelector("header nav > button")
-  sluitButton.addEventListener("click", sluitMenu)
   
-  function sluitMenu(){
+function sluitMenu(){
     let nav = document.querySelector("nav");
     nav.classList.remove("toonMenu");
-  }
-
-
-  const video = document.querySelector("video");
-  const pauseKnop = document.querySelector("#pauseKnop");
+}
   
-  pauseKnop.addEventListener("click", pause);
-  
-  function pause() {
+function pause() {
     if (video.paused) {
       video.play(); 
-      pauseKnop.textContent = "Pause Video"; 
+      pauseButton.textContent = "Pause Video"; 
     } else {
       video.pause();
-      pauseKnop.textContent = "Play Video"; 
+      pauseButton.textContent = "Play Video"; 
     }
-  }
-
+}
