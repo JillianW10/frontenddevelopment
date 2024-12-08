@@ -196,7 +196,7 @@ Antwoorden op gestelde vragen:
   - Mijn website valideert wel in W3C.
   - Ik heb een dark-mode thema toegevoegd.
   - Ik heb probeert om zo min mogelijk divjes te gebruiken, en wanneer ik ze toch heb gebruikt, heb ik ervoor gezorgd dat het puur voor styling is.
-  - Er is geen autplay bij de video.
+  - Er is geen autoplay bij de video.
   - Ik heb gebruik gemaakt van List items voor list content.
 
 </details>
