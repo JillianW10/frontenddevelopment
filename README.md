@@ -185,7 +185,7 @@ Antwoorden op gestelde vragen:
   <img src="readme-images/WCAGchecklist1.png" width="375px" alt="Toegankelijkheidstest 2/5">
   <img src="readme-images/WCAGchecklist2.png" width="375px" alt="Toegankelijkheidstest 3/5">
   <img src="readme-images/WCAGchecklist3.png" width="375px" alt="Toegankelijkheidstest 4/5">
-  <img src="readme-images/toegankelijkheidstest5.png" width="375px" alt="Toegankelijkheidstest 5/5">
+  <img src="readme-images/WCAGchecklist4.png" width="375px" alt="Toegankelijkheidstest 5/5">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
