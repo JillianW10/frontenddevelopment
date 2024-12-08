@@ -825,6 +825,8 @@ footer ul a {
 
 /* background elements */
 
+/* Ik heb op W3C opgezocht hoe ik foto's als achtergrond elementen kan toevoegen https://www.w3schools.com/cssref/pr_background-image.php */
+
 .homepagina main section:last-of-type {
 	background-image: url("../images/background_elements.png");
 	background-size: cover;
@@ -850,13 +852,13 @@ footer svg {
 }
 
 footer>img:first-of-type {
-    margin-top: -4em;
-    min-width: 30vh;
+	margin-top: -4em;
+	min-width: 30vh;
 }
 
 footer>img {
-    width: 100%;
-    padding: 5em 0 2em 0;
+	width: 100%;
+	padding: 5em 0 2em 0;
 }
 
 /* hovering nav */
