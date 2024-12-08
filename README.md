@@ -157,15 +157,14 @@ Antwoorden op gestelde vragen:
 
   Mijn niet algemene vragen:
   - Is mijn ⁠Footer nav in html nesting goed?
-  - ⁠Zo ja hoe kan ik 2 rijtjes naast elkaar zetten en wnr het groter wordt dat ze allemaal naast    elkaar veranderen (responsive laten bewegen)
-  - ⁠MAg de div als container voor de video gebruik worden - Ik heb dit geplaatst voor een container voor die button.
+  - ⁠Zo ja hoe kan ik 2 rijtjes naast elkaar zetten en wanneer het groter wordt dat ze allemaal naast    elkaar veranderen (responsive laten bewegen)
+  - ⁠Mag de div als container voor de video gebruik worden - Ik heb dit geplaatst voor een container voor die button.
 
   Antwoorden op de gestelde vragen en feedback:
-  - Je mag 2 stylesheets gebruiken, maar voor deze opdracht en mijn websit eis het niet zo zeer nodig.
-  - Footer nav ul moet je tot sections maken ⁠en dan met flex wrap naast elkaar plaatsen en media query dgebruiken zodat het responsivve word.
-  -  class is goed toegepast het mag. Je mag bij een section als je dezelfde ding wil laten doen vr beide pagina’s een class ook toevoegen.
-  -  ⁠div van de video mag want het is puur vr styling.
-  - h3 moet boven de img en dan met order -1 zetten zodat t img bove komt bij de main section.
+  - Je mag 2 stylesheets gebruiken, maar voor deze opdracht en mijn websit is het niet zo zeer nodig.
+  - Footer nav ul moet je tot sections maken ⁠en dan met flex wrap naast elkaar plaatsen en media query gebruiken zodat het responsive word.
+  -  class is goed toegepast het mag. Je mag bij een section als je dezelfde ding wil laten doen voor beide pagina’s een class ook toevoegen.
+  -  ⁠div van de video mag want het is puur voor styling.
   -  ⁠h1 moet altijd gaan over de gehele site dus de h1 kan crayola experience zijn en dan in css op visually-hidden zetten zodat het onzichtbaar wordt, maar voor de screenreader zal het nog opgelezen worden.
   - verder ziet je ReadMe goed uit en breakdown schetsen ook. De html en css structuur zien ook goed uit.
   - Alt tekstjes nog bijzetten bij imgs
@@ -186,7 +185,7 @@ Antwoorden op gestelde vragen:
   <img src="readme-images/WCAGchecklist1.png" width="375px" alt="Toegankelijkheidstest 2/5">
   <img src="readme-images/WCAGchecklist2.png" width="375px" alt="Toegankelijkheidstest 3/5">
   <img src="readme-images/WCAGchecklist3.png" width="375px" alt="Toegankelijkheidstest 4/5">
-  <img src="readme-images/WCAGchecklist5.png" width="375px" alt="Toegankelijkheidstest 5/5">
+  <img src="readme-images/toegankelijkheidstest5.png" width="375px" alt="Toegankelijkheidstest 5/5">
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
@@ -196,7 +195,7 @@ Antwoorden op gestelde vragen:
   Wat ik heb verbeterd:
   - Mijn website valideert wel in W3C.
   - Ik heb een dark-mode thema toegevoegd.
-  - Ik heb probeert om zo min mogelijk diivjes te gebruiken, en wanneer ik ze toch heb gebruikt, heb ik ervoor gezorgd dat het puur voor styling is.
+  - Ik heb probeert om zo min mogelijk divjes te gebruiken, en wanneer ik ze toch heb gebruikt, heb ik ervoor gezorgd dat het puur voor styling is.
   - Er is geen autplay bij de video.
   - Ik heb gebruik gemaakt van List items voor list content.
 
@@ -224,12 +223,14 @@ Antwoorden op gestelde vragen:
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | andere studenten waren afwezig | 
-  | ---            |                                | 
-  | Ik had voor dit|                                |
-  | gesprek alleen |                                | 
-  | vragen over m'n|                                |
-  | eigen code.    |                                | 
+  | student 1      |
+  | ---            |
+  | Ik had voor dit| 
+  | gesprek alleen | 
+  | vragen over m'n|  
+  | eigen code.    |
+
+  => andere studenten waren afwezig
 
 
   ### Verslag van meeting
@@ -237,7 +238,7 @@ Antwoorden op gestelde vragen:
 
   - Ik kreeg als feedback dat mijn website al redelijk af eruit ziet, alleen een paar finishing touches had het nodig.
   - Ik stelde specifieke vragen over mijn code, waar ik gelijk hulp kreeg. Ik heb deze code dan thuis verbeterd.
-  - Ik had ook gevraagd als ik de styling van de navigatie moet nadoen sins ik responsive heb gekozen, en ik kreeg als antwoord, ja die hover nav stlyling kan wel erbij. Ik kreeg hiervor ook hulp hoe ik het zou kunnen uitvoeren.
+  - Ik had ook gevraagd als ik de styling van de navigatie moet nadoen sins ik responsive heb gekozen, en ik kreeg als antwoord, ja die hover nav styling kan wel erbij. Ik kreeg hiervor ook hulp hoe ik het zou kunnen uitvoeren.
   - Ik kreeg ook als feedback dat ik me dark mode eerst in orde moet maken voordat ik de nav styling doe, want die is belangrijker.
 </details>
 
@@ -268,7 +269,7 @@ Antwoorden op gestelde vragen:
 
   ### Dit was lastig/Is niet gelukt:
 
-  Het is me niet gelukt om de openklap hamburgermenu (mobile scherm) met deze styling te krijgen, Ik heb de navigatie menu op de desktop scherm wel geprobeerd en die is me gelukt. 
+  Het is me niet gelukt om het openklap hamburgermenu (mobile scherm) met deze styling te krijgen, Ik heb de navigatie menu op de desktop scherm wel geprobeerd en die is me gelukt. 
 
   <img src="readme-images/screenshot_openklap_hamburgermenu.png" width="375px" alt="Zo ziet het eruit als je de hamburgermenu klik op de originele site">
 
@@ -294,11 +295,11 @@ Antwoorden op gestelde vragen:
   1. Ik heb de SVG van de originele site gehaald die ik namaak.
   link naar site: https://crayolaexperiencemn.com/
   SVG gebruikt in code: 
-    - <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true">
+    - svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" aria-hidden="true">
 			<path class="elementor-shape-fill" d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
 			c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
 			c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"></path>
-		</svg>
+		svg
 
   2. De code voor de navigatie sluitmenu, heb ik d.m.v. het maken van de opdrachten op DLO kunnen doen.
   code:
@@ -324,5 +325,14 @@ prompt: how to add a focus style for all elements at once?
 antwoord: *:focus {
     outline: 2px solid #005fcc; /* Blue outline */
     box-shadow: 0 0 5px rgba(0, 95, 204, 0.7); /* Optional glow effect */
+}
+
+4. Ik heb op W3C de background-image property opgezocht, zodat ik ed achtergrond decoratie elementen kan toevoegen op deze manier.
+Link naar website: https://www.w3schools.com/cssref/pr_background-image.php
+
+Deze code stond er op de wesbite van W3C
+body {
+ background-image: url("paper.gif");
+ background-color: #cccccc;
 }
 </details>
